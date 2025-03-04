@@ -1,0 +1,44 @@
+.block {
+    max-width: 700px;
+    border: 1px solid #9724a6;
+    border-radius: 7px;
+    padding: 15px 15px 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 450px;
+}
+
+.input-date {
+    /* height: 40px; */
+    padding: 10px;
+    border: 1px solid #4424ac;
+    border-radius: 7px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #4424ac;
+    font-size: 18px;
+    color: beige;
+}
+
+.text {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #9724a6;
+}
